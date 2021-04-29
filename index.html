@@ -5,5 +5,32 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Rock, Paper, Scissors</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="game_buttons">
+      <form>
+        <input type="text" id="username" placeholder="Please enter a username" maxlength="10" />
+        <button type="button" id="submitName">Submit</button>
+      </form>
+      <button class="button-game" id="button_rock">Rock</button>
+      <button class="button-game" id="button_paper">Paper</button>
+      <button class="button-game" id="button_scissors">Scissors</button>
+    </div>
+    <div class="moves">
+      <div class="game_scores">
+        <h2 id="scores-played">Games Played</h2>
+        <h2 id="scores-wins">Wins</h2>
+        <h2 id="scores-draws">Draws</h2>
+        <h2 id="scores-losses">Losses</h2>
+      </div>
+
+      <section class="move_box player_move">
+        <h2 id="your-move">Your Move</h2>
+      </section>
+      <section class="move_box computer_move">
+        <h2>Computer</h2>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
